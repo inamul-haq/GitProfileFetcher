@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 200px;
+}
+
+.rootContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+}
+
+.inputfield{
+    max-width: 20rem;
+}
+
+.fetchContainer{
+    background-color: gray;
+    margin-top: 2rem;
+    width: 40rem;
+    height: 13rem;
+    border-radius: 2em;
+    display: flex;
+    align-items: space-between;
+
+
+}
+.fetchContainer img{
+    height:13rem; 
+    width:13rem;
+    padding: 2rem;
+}
+
+.fetchInnerConatiner{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding: 2rem 1rem 2rem 0;
+    color: white;
+}
+
+.fetchGrid{
+    display: grid;
+    padding-top: 10px;
+    grid-template-rows: 2rem 2rem;
+    grid-template-columns: 9rem 9rem 7rem;
+}
+
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#item4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.fetchGrid h6 span{
+    font-weight: lighter;
+}
